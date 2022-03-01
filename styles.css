@@ -46,7 +46,7 @@ button {
     background-color: var(--background-headings-buttons);
     font-size: 15px;
     border-radius: 25px;
-    padding: 16px 32px;
+    padding: 12px 32px;
     border: 2px solid var(--background-headings-buttons);
     font-weight: 400;
 }
@@ -56,6 +56,7 @@ button:hover {
     color: var(--background-headings-buttons);
     border: 2px solid var(--background-headings-buttons);
     cursor: pointer;
+    transition: 1s;
 }
 
 .container {
