@@ -49,6 +49,7 @@ button {
     padding: 12px 32px;
     border: 2px solid var(--background-headings-buttons);
     font-weight: 400;
+    transition: 1s;
 }
 
 button:hover {
@@ -56,7 +57,7 @@ button:hover {
     color: var(--background-headings-buttons);
     border: 2px solid var(--background-headings-buttons);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .container {
